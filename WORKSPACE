@@ -66,3 +66,15 @@ maven_jar(
     artifact = "com.amazonaws:jmespath-java:1.11.381",
     sha1 = "c428e44fa35032bbc89c6aaab15f1f3857c2afbe"
 )
+
+maven_jar(
+    name = "javax_xml_bind_jaxb_api",
+    artifact = "javax.xml.bind:jaxb-api:2.2.7",
+    sha1 = "2f51c4bb4724ea408096ee9100ff2827e07e5b7c",
+)
+
+maven_jar(
+    name = "javax_annotation_javax_annotation_api",
+    artifact = "javax.annotation:javax.annotation-api:1.3.2",
+    sha1 = "934c04d3cfef185a8008e7bf34331b79730a9d43",
+)

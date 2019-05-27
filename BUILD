@@ -12,6 +12,7 @@ java_library(
         "@software_amazon_ion_ion_java//jar",
         "@tink_httpclient_4_5_5//:tink_httpclient_4_5_5",
         "@tink_httpcore_4_4_9//:tink_httpcore_4_4_9",
+        "@javax_xml_bind_jaxb_api//jar",
 
     ],
 )
@@ -29,6 +30,7 @@ java_library(
         "@tink_httpclient_4_5_5//:tink_httpclient_4_5_5",
         "@tink_httpcore_4_4_9//:tink_httpcore_4_4_9",
         "@commons_logging_commons_logging//jar",
-
+        "@javax_annotation_javax_annotation_api//jar",
+        
     ],
 )
